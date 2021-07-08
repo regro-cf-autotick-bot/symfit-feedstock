@@ -21,11 +21,12 @@ requirements:
   run:
     - python
     - numpy >=1.12
-    - scipy >=1.0
+    - scipy >=1.0,<1.2
     - sympy >=1.2
-    - six
+    - toposort
     - funcsigs  # [py2k]
     - functools32  # [py2k]
+    - six
 
 test:
   imports:
